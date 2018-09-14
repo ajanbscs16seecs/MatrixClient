@@ -1,27 +1,56 @@
 // MatrixLib.h
 
-#include <cstdlib>
+
 #include <vector>
 
-//using namespace System;
+
+
+
+#pragma once  
+
+#ifdef MATRIXLIB_API_EXPORTS  
+#define MATRIXLIB_API __declspec(dllexport)   
+#else  
+#define MATRIXLIB_API __declspec(dllimport)   
+#endif  
+
 using namespace std;
 
 namespace MatrixLib {
 
-	public ref class MatrixMultiplication
+	class MatrixMultiplication
 	{
-		vector<vector<int>> mutiply(vector<vector<int>> a, vector<vector<int>> b);
+	public:
+		/***
+		* this method does matrix multiplication for you.
+		* input matrix a and b of type vector<vector<int>>
+		* result in vector<vector<int>>
+		*/
+		static MATRIXLIB_API vector<vector<int>> multiply(vector<vector<int>> a, vector<vector<int>> b);
+		static MATRIXLIB_API int multiplynumber(int a, int b);
 	}; 
 
-	public ref class MatrixTranspose
+	class MatrixTranspose
 	{
-		vector<vector<int>> transpose(vector<vector<int>> a);
+	public:
+		/***
+		* this method does matrix tranpose for you.
+		* input matrix a  of type vector<vector<int>>
+		* result in vector<vector<int>>
+		*/
+		static MATRIXLIB_API vector<vector<int>> transpose(vector<vector<int>> a);
 	};
 
 
-	public ref class MatrixAddSub
+	class MatrixAddSub
 	{
-		vector<vector<int>> add(vector<vector<int>> a, vector<vector<int>> b, bool add);
+	public:
+		/***
+		* this method does matrix addition or subtraction for you.
+		* input matrix a and b of vector<vector<int>> and add boolean by which you can tell either to add or subtract, true for addition and false for subtraction
+		* result in vector<vector<int>>
+		*/
+		static MATRIXLIB_API vector<vector<int>> add(vector<vector<int>> a, vector<vector<int>> b, bool add);
 	};
 	
 }

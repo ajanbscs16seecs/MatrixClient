@@ -1,9 +1,18 @@
-﻿Build started 13/09/2018 4:36:22 PM.
-     1>Project "C:\Users\bkhalid.bscs16seecs\Documents\GitHub\MatrixClient\MatrixLib\MatrixLib.vcxproj" on node 2 (Build target(s)).
-     1>Link:
-         MatrixLib.vcxproj -> C:\Users\bkhalid.bscs16seecs\Documents\GitHub\MatrixClient\Debug\MatrixLib.dll
-     1>Done Building Project "C:\Users\bkhalid.bscs16seecs\Documents\GitHub\MatrixClient\MatrixLib\MatrixLib.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:00.40
+﻿  MatrixAddSub.cpp
+c:\users\arif\documents\github\matrixclient\matrixlib\matrixaddsub.cpp(10): warning C4273: 'MatrixLib::MatrixAddSub::add': inconsistent dll linkage
+  c:\users\arif\documents\github\matrixclient\matrixlib\matrixlib.h(53): note: see previous definition of 'add'
+  MatrixTranspose.cpp
+c:\users\arif\documents\github\matrixclient\matrixlib\matrixtranspose.cpp(9): warning C4273: 'MatrixLib::MatrixTranspose::transpose': inconsistent dll linkage
+  c:\users\arif\documents\github\matrixclient\matrixlib\matrixlib.h(41): note: see previous definition of 'transpose'
+  MatrixLib.cpp
+  MatrixMultiplication.cpp
+c:\users\arif\documents\github\matrixclient\matrixlib\matrixmultiplication.cpp(13): warning C4273: 'MatrixLib::MatrixMultiplication::multiply': inconsistent dll linkage
+  c:\users\arif\documents\github\matrixclient\matrixlib\matrixlib.h(29): note: see previous definition of 'multiply'
+c:\users\arif\documents\github\matrixclient\matrixlib\matrixmultiplication.cpp(18): warning C4273: 'MatrixLib::MatrixMultiplication::multiplynumber': inconsistent dll linkage
+  c:\users\arif\documents\github\matrixclient\matrixlib\matrixlib.h(30): note: see previous definition of 'multiplynumber'
+  Generating Code...
+  .NETFramework,Version=v4.5.AssemblyAttributes.cpp
+  MatrixAddSub.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+  MatrixAddSub.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+     Creating library C:\Users\Arif\Documents\GitHub\MatrixClient\Debug\MatrixLib.lib and object C:\Users\Arif\Documents\GitHub\MatrixClient\Debug\MatrixLib.exp
+  MatrixLib.vcxproj -> C:\Users\Arif\Documents\GitHub\MatrixClient\Debug\MatrixLib.dll

@@ -7,10 +7,15 @@
 #include <cstdlib>
 #include <vector>
 
-using namespace std;
 
 
-vector<vector<int>>  MatrixLib::MatrixMultiplication::mutiply(vector<vector<int>> a, vector<vector<int>>b){
+
+vector<vector<int>>  MatrixLib::MatrixMultiplication::multiply(vector<vector<int>> a, vector<vector<int>>b){
+
+	return a;
+}
+
+int  MatrixLib::MatrixMultiplication::multiplynumber(int a, int b) {
 
 	return a;
 }

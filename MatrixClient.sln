@@ -1,26 +1,39 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixClient", "MatrixClient\MatrixClient.vcxproj", "{536C4A3F-4E4D-4E8A-82DA-38DC8376A06C}"
-EndProject
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixLib", "MatrixLib\MatrixLib.vcxproj", "{06F0428F-E491-4353-832E-AAB81922B01C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MatrixClient", "MatrixClient\MatrixClient.vcxproj", "{7D95FB1D-A161-42E2-A47E-13471F92521A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{536C4A3F-4E4D-4E8A-82DA-38DC8376A06C}.Debug|Win32.ActiveCfg = Debug|Win32
-		{536C4A3F-4E4D-4E8A-82DA-38DC8376A06C}.Debug|Win32.Build.0 = Debug|Win32
-		{536C4A3F-4E4D-4E8A-82DA-38DC8376A06C}.Release|Win32.ActiveCfg = Release|Win32
-		{536C4A3F-4E4D-4E8A-82DA-38DC8376A06C}.Release|Win32.Build.0 = Release|Win32
 		{06F0428F-E491-4353-832E-AAB81922B01C}.Debug|Win32.ActiveCfg = Debug|Win32
 		{06F0428F-E491-4353-832E-AAB81922B01C}.Debug|Win32.Build.0 = Debug|Win32
+		{06F0428F-E491-4353-832E-AAB81922B01C}.Debug|x64.ActiveCfg = Debug|Win32
 		{06F0428F-E491-4353-832E-AAB81922B01C}.Release|Win32.ActiveCfg = Release|Win32
 		{06F0428F-E491-4353-832E-AAB81922B01C}.Release|Win32.Build.0 = Release|Win32
+		{06F0428F-E491-4353-832E-AAB81922B01C}.Release|x64.ActiveCfg = Release|Win32
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Debug|Win32.Build.0 = Debug|Win32
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Debug|x64.ActiveCfg = Debug|x64
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Debug|x64.Build.0 = Debug|x64
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Release|Win32.ActiveCfg = Release|Win32
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Release|Win32.Build.0 = Release|Win32
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Release|x64.ActiveCfg = Release|x64
+		{7D95FB1D-A161-42E2-A47E-13471F92521A}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B1B57247-EC6C-449A-BE93-3AC91319729E}
 	EndGlobalSection
 EndGlobal
